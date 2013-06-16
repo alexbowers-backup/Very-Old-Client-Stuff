@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([a-z]=.*)  index.php?$1  [L,NE]
+</IfModule>
+
+ExpiresActive on
+ExpiresDefault "access plus 2 days"
+ExpiresByType text/javascript "access plus 1 months"
+ExpiresByType application/javascript "access plus 1 months"

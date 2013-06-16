@@ -1,0 +1,8 @@
+Valid!
+
+Email: danielfraser589@hotmail.com
+Name: Daniel Fraser
+Receiver: X9FNGZKDG5DGA (steveconley@rogers.com)
+
+cmd=_notify-validate&mc_gross=0.05&protection_eligibility=Ineligible&payer_id=RC936CD4YDT52&tax=0.00&payment_date=16%3A30%3A51+Nov+10%2C+2010+PST&payment_status=Completed&charset=windows-1252&first_name=Daniel&mc_fee=0.05&notify_version=3.0&custom=&payer_status=verified&business=steveconley%40rogers.com&quantity=1&verify_sign=A2YnYs6LuOd-R8BHIdbWTA6xHgalA8LGclmPbLDf1p86vAJlKi.viI17&payer_email=danielfraser589%40hotmail.com&txn_id=9W830736SN4570258&payment_type=instant&btn_id=22771020&last_name=Fraser&receiver_email=steveconley%40rogers.com&payment_fee=0.05&shipping_discount=0.00&insurance_amount=0.00&receiver_id=X9FNGZKDG5DGA&txn_type=web_accept&item_name=%240.05+Credit&discount=0.00&mc_currency=USD&item_number=1&residence_country=CA&handling_amount=0.00&shipping_method=Default&transaction_subject=%240.05+Credit&payment_gross=0.05&shipping=0.00
+

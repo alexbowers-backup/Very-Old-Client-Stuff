@@ -1,0 +1,20 @@
+#jquery-lightbox-overlay { position: absolute; left: 0; top: 0; width: 0; height: 0; z-index: 90}
+#jquery-lightbox { position: absolute; left: 0; top: 0; width: 100% ; z-index: 100; text-align: center }
+#jquery-lightbox img { border: 0; margin: 0;}
+
+#jquery-lightbox-container-box { background-color: #ffffff; position: absolute;}
+
+#jquery-lightbox-loading { position: absolute; left: 0%; top: 49%; width: 100%; height: 100% }
+
+#jquery-lightbox-nav { position: absolute; left: 0; top: 0; z-index: 10 }
+#jquery-lightbox-nav a { outline: none }
+#jquery-lightbox-nav-btnPrev, #jquery-lightbox-nav-btnNext { display: block; width: 49% }
+#jquery-lightbox-nav-btnPrev { left: 0; float: left }
+#jquery-lightbox-nav-btnNext { right: 0; float: right }
+
+#jquery-lightbox-footer-box { background-color: #fff; color: #777; font: 10px Verdana, Helvetica, sans-serif; line-height: 1.4em; padding: 10px; margin-left: -10px; }
+#jquery-lightbox-footer-data { float: left; text-align: left }
+#jquery-lightbox-footer-data p { margin: 0 0 5px 0 }
+#jquery-lightbox-footer-data p.caption { font-weight: bold }
+
+#jquery-lightbox-closeButton { display: block; float: right; width: 66px }

@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, img {
+	border: 0 !important;
+}
+
+div#container {
+	width: 752px;
+	height: 720px;
+	background-image: url(images/misc/hud.png) !important;
+	z-index: 50;
+	display: inline-block;
+}
+div#header {
+	width: 100%;
+	height: 52px;
+}
+ul#resources {
+	float: left;
+}
+ul#resources li {
+	float: left;
+	display: inline;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #fff;
+	position: relative;
+	top: 12px;
+}
+
+ul#resources li.wood span.image {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: -15px;
+	background-image: url(images/resources/wood.png);
+	background-repeat: no-repeat;
+}
+ul#resources li.wood span.text {
+	position: absolute;
+	left: 75px;
+	top: 4px;
+}
+ul#resources li.iron span.image {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: -20px;
+	left: 148px;
+	background-image: url(images/resources/iron.png);
+	background-repeat: no-repeat;
+}
+ul#resources li.iron span.text {
+	position: absolute;
+	left: 220px;
+	top: 4px;
+}
+ul#resources li.clay span.image {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	left: 295px;
+	top: -20px;
+	background-image: url(images/resources/clay.png);
+	background-repeat: no-repeat;
+}
+ul#resources li.clay span.text {
+	position: absolute;
+	left: 365px;
+	top: 4px;
+}
+ul#resources li.population span.image {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: -20px;
+	left: 435px;
+	background-image: url(images/resources/population.png);
+	background-repeat: no-repeat;
+}
+
+ul#resources li.population span.text {
+	position: absolute;
+	left: 500px;
+	top: -1px;
+	font-size: 14px;
+}
+ul#resources li small {
+	color: #999;
+	font-size: 12px;
+	position: absolute;
+	left: 540px;
+	top: 10px;
+	
+}
+ul#resources li.coin span.image {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: -20px;
+	left: 585px;
+	background-image: url(images/resources/coin.png);
+	background-repeat: no-repeat;
+}
+ul#resources li.coin span.text {
+	position: absolute;
+	left: 655px;
+	top: 4px;
+}
+ul#resources li.full {
+	color: #F00;
+}
+
+div#footer {
+	width: 100%;
+	height: auto;
+}
+div#message_area {
+	height: 175px;
+	width: 475px;
+	overflow: auto;
+	overflow-x: hidden;
+	float: left;
+	margin-right: 5px;
+}
+div.message , div.message span, div.message p {
+	float: left;
+	overflow: auto;
+}
+div.message {
+	clear: both;
+}
+div#chat {
+	float: left;
+	position: relative;
+	left: 20px;
+	top: 18px;
+}
+div#chat span {
+	font-size: 12px;
+	float: left;
+}
+div#chat span.normal {
+	color: #0CF;
+}
+div#chat span.mod {
+	color: #093;
+}
+div#chat span.admin {
+	color: #F90;
+}
+div#chat span.shout{
+	font-size: 14px;
+	font-weight: bold;
+}
+div#chat p {
+	font-size: 12px;
+	text-wrap:normal;
+}
+div#chat p.body {
+	color: #FFF;
+}
+div#chat p.shout {
+	font-weight: bold;
+	font-size: 14px;
+}
+div#details {
+	max=height: 210px;
+}
+div#details span span{
+	font-weight: bold;
+}
+div#details span {
+	font-weight: normal;
+}
+div#details ul#mini_menu {
+	
+}
+div#details ul#mini_menu li {
+	diaply: inline-block;
+	padding: 5px 5px 5px 5px;
+	float: left;
+}
+
+
+
+
+div#city {
+	display: block;
+	width: 752px;
+	height: 430px;
+	background-image: url(images/city/background.jpg);
+	background-repeat: no-repeat;
+}
+
+input[type="text"] {
+	background: #0b0907;
+	color: #FFFfff;
+	height: 16px;
+	width: 451px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+input[type="submit"] {
+	height: 16px;
+	font-size: 12px;
+}

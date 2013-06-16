@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/sparkserver/!svn/ver/3/trunk/min
+END
+utils.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sparkserver/!svn/ver/3/trunk/min/utils.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sparkserver/!svn/ver/3/trunk/min/.htaccess
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sparkserver/!svn/ver/3/trunk/min/config.php
+END
+groupsConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sparkserver/!svn/ver/3/trunk/min/groupsConfig.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sparkserver/!svn/ver/3/trunk/min/index.php
+END

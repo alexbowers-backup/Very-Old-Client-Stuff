@@ -1,0 +1,44 @@
+#cookiecommons {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2b2f35), to(#202328));
+	background: -webkit-linear-gradient(top, #2b2f35, #202328);
+	background: -moz-linear-gradient(top, #2b2f35, #202328);
+	background: -ms-linear-gradient(top, #2b2f35, #202328);
+	background: -o-linear-gradient(top, #2b2f35, #202328);
+	background-color: #2b2f35;
+}
+
+#cookiecommons_title {
+	color: #fff;
+	text-shadow: 0 1px 2px #000;
+}
+
+#cookiecommons_body {
+	color: #c0c8d5;
+}
+
+#cookiecommons_line {
+	border-bottom: 1px solid black;
+}
+.cookiecommons_btn {
+-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.50);
+background:#FFFFFF;
+border:1px solid #BBBBBB;
+color:#555555 !important;
+text-shadow:0 1px 1px rgba(255, 255, 255, 0.5);
+}
+.cookiecommons_btn:hover {
+background-color:#EEEEEE;
+border-color:#999999;
+color:#444444 !important;
+}
+.cookiecommons_btn:active {
+background-color:#ffffff;
+}
+
+
+.cookiecommons_span {
+	color: #c0c8d5;
+}
+.cookiecommons_span a {
+	color: #c0c8d5;
+}

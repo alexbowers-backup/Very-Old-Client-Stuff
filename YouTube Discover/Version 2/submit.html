@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+    <title>Submit Video</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/tipTip.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <style type="text/css" media="screen">
+        p {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<div id="container" style="height: 330px;">
+    <header class="group">
+        <a href="find_results.html" style="display: block; width: 170px;"><div id="logo">YouTube Discover</div></a>
+        <nav id="nav1" style="display: none">Welcome, <strong>Mr. Bob</strong> - <a href="#">My Videos</a> - <a href="#">Messages <span class="notification">3</span></a></nav>
+        <nav id="nav2">
+            <form id="login">
+                <label for="username">Username:</label> <input type="text" class="login"id="username" name="username" placeholder="BobSmith1"/>
+                <label for="password">Password:</label> <input type="text" class="login" id="password" name="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" />
+                <input id="submit-login" name="submit-login" type="submit" value="Login" onclick="$('#nav2').hide(); $('#nav1').show();        return false;"/>
+            </form>
+        </nav>
+    </header>
+    <div class="group">
+            <form class="large">
+            <h1>Submit Video</h1>
+            <section id="submit-form" class="scrollable">
+                <div class="group">
+                <fieldset>
+                    <h2>Information</h2>
+                    <label for="v-link">Link to Video</label>
+                    <input type="text" id="v-link" name="v-link" placeholder="http://youtu.be/BgAlQuqzl8o" />
+
+                    <label for="v-id">YouTube ID</label>
+                    <input type="text" id="v-id" name="v-id" disabled />
+
+                    <label for="v-title">Title</label>
+                    <input type="text" id="v-title" name="v-title" />
+
+                    <img id="thumbnail"/>
+                    <label for="v-thumb">Thumbnail</label>
+                    <input type="file" id="v-thumb" name="v-thumb" />
+                    <span class="note">120 x 90; PNG or JPG</span>
+
+                    <label for="v-start">Start Time</label>
+                    <input type="text" id="v-start" name="v-start" placeholder="123" value="0" />
+                    <span class="note">in seconds</span>
+                </fieldset>
+                <fieldset>
+                    <h2>Filters</h2>
+                    <label for="add-filter">Add Filter</label>
+                    <select style="width: 196px; display: inline-block; vertical-align: middle;" id="add-filter" name="add-filter">
+                        <option value="filter1">Filter 1</option>
+                        <option value="filter2">Filter 2</option>
+                        <option value="filter3">Filter 3</option>
+                        <option value="filter4">Filter 4</option>
+                    </select>
+                    <input type="button" id="add" name="add" value="+"/>
+
+                    <div id="selected-filters"></div>
+                    <!--
+                        <div class="sel-filter">
+                            <span>Filter 1</span>
+                            <select><option value="value">Value 1</option></select>
+                            <a href="#" title="Remove">x</a>
+                        </div>
+                    -->
+
+                    <label for="tags">Tags</label>
+                    <textarea id="tags" name="tags" rows="8" cols="20"></textarea>
+                    <!--<input type="text" id="tags" name="tags" />-->
+                    <span class="note">separated by spaces &#8212; used for text search</span>
+                </fieldset>
+                </section>
+                <input type="submit" id="submit" name="submit" onClick="return false;" />
+            </form>
+        
+    </div>
+</div>
+<footer>
+    <span class="padded">&copy; Copyright 2011 XYZ</span>
+    <span class="padded">Design by <a href="http://4cu.be">Gupocca</a></span>
+    <a href="#" class="padded">Terms of Service</a>
+    <a href="#" class="padded">Privacy Policy</a>
+</footer>
+
+<script src="lib/jquery.tipTip.minified.js"></script>
+<script>
+    $(function() {
+        $(window).resize(); // set divs to the correct sizes
+    });
+    $(window).resize(function(){
+        $('section.scrollable').css('height', window.innerHeight - 221);
+    });
+    $('#add').click(function(){
+        var add_sel = $('#add-filter');
+        var title = add_sel.find("option[value='"+ add_sel.val() +"']").text()
+        //$("#list option[value='2']").text()
+
+        var filt_sel = $('#selected-filters');
+
+        if (filt_sel.find('#filt-'+add_sel.val()).length == 0) {
+        filt_sel.append('<div class="sel-filter" id="filt-'+add_sel.val()+'"><span>'+ title +'</span><select><option value="value">Value 1</option><option value="value">Value 2</option><option value="value">Value 3</option></select><a href="#" title="Remove">x</a></div>');
+        }
+        var temp_sel = $('.sel-filter a');
+        temp_sel.unbind('click');
+        temp_sel.click(removal);
+    });
+    function removal(){
+        $(this).parent().remove();
+        return false;
+    }
+    $('#v-link').blur(function(){
+        var id = getLinkID($(this).val());
+        if (id == null) {
+            $('#v-id').val('invalid link').addClass('invalid');
+        }
+        else {
+            $('#v-id').val(id).removeClass('invalid');
+            youtubeFetchData(id);
+        }
+    });
+
+    function getLinkID(link) {
+        var pattern = new RegExp("(?:https?://)?(?:www\.)?(?:youtu\.be/|youtube\.com(?:/embed/|/v/|/watch\\?v=))([\\w-]{10,12})");
+        var m = pattern.exec(link);
+        
+        if (m == null) { return null; }
+        else { return m[1]; }
+    }
+
+    /////////////
+
+    function youtubeFetchData(id) {
+      $.getScript('http://gdata.youtube.com/feeds/api/videos/' + encodeURIComponent(id) + '?v=2&alt=json-in-script&callback=youtubeFetchDataCallback');
+    }
+    function youtubeFetchDataCallback(data) {
+        $('#v-title').val(data.entry["title"].$t);
+
+        s = "";
+        for (var i = 2; i < data.entry["category"].length; i++) {
+            s += data.entry["category"][i]["term"] + " ";
+        }
+        $('#tags').val(s);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 2
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:28:44] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ytd/public_html/index.php on line 125
+[02-Apr-2012 07:28:44] PHP Warning:  Invalid argument supplied for foreach() in /home/ytd/public_html/index.php on line 129
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 2
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:31:47] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ytd/public_html/index.php on line 125
+[02-Apr-2012 07:31:47] PHP Warning:  Invalid argument supplied for foreach() in /home/ytd/public_html/index.php on line 129
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 2
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 3
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ytd/public_html/index.php on line 124
+[02-Apr-2012 07:33:41] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ytd/public_html/index.php on line 125
+[02-Apr-2012 07:33:41] PHP Warning:  Invalid argument supplied for foreach() in /home/ytd/public_html/index.php on line 129
+[02-Apr-2012 07:34:54] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/ytd/public_html/filter.php on line 2
+[02-Apr-2012 07:34:54] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ytd'@'localhost' (using password: NO) in /home/ytd/public_html/filter.php on line 3
+[02-Apr-2012 07:34:54] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/ytd/public_html/filter.php on line 3

@@ -1,0 +1,14 @@
+#container { width:1000px; }
+#menu { width:220px; }
+#wrapper { width:780px; }
+
+.flexslider { width:680px; }
+input[type="text"], input[type="email"], input[type="password"] { 
+	height:31px;
+	padding:12px 0 12px 20px; }
+	
+input[type="text"], 
+input[type="email"], 
+input[type="password"]  { 
+	height:55px;
+	padding:17px 0 7px 20px; }

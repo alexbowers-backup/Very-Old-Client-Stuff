@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/sparkserver/!svn/ver/3/trunk/min/lib
+END
+Minify.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/min/lib/Minify.php
+END
+FirePHP.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sparkserver/!svn/ver/3/trunk/min/lib/FirePHP.php
+END
+JSMin.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sparkserver/!svn/ver/3/trunk/min/lib/JSMin.php
+END
+JSMinPlus.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sparkserver/!svn/ver/3/trunk/min/lib/JSMinPlus.php
+END

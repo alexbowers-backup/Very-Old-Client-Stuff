@@ -1,0 +1,24 @@
+[url=http://www.sparklemon.com][img]http://c360958.r58.cf2.rackcdn.com/sparklemonpromo.png[/img]
+[font=Trebuchet MS][size=24][b][color=black]Spark Lemon[/color][/b][/size] [size=14][color=darkred]BETA[/color][/size][/url]
+[size=14][color=gray][i]Game Development Marketplace[/i][/color][/size][/font]
+
+Hey there! We're just about ready to release our new website, [i]Spark Lemon[/i], to the world—and English speaking regions of Mars. Back in October 2010, two young men (Stephen Hoerner &  Josh Conley) set out to create the most awesome game developer's marketplace ever (which just so happens to be the only one at the moment).  For the past 5½ months, we've been pounding away at the keyboard and clicking away at the mouse to bring you such a site.  We really hope your gonna like it, but if it's not your thing, that's fine too.
+
+[b]What is Spark Lemon anyway?[/b]
+Spark Lemon is a place both for people who like to make games, and those who like to make sounds, scripts, or graphics [i]for [/i]games.  At the moment there are two main features: "Buy" and "Sell." If you are making a game but lack resources, you might want to buy some quality resources. Or, if you enjoy creating resources—programming game engines, for example—why not sell them on Spark Lemon?  You can make a little money while helping other people at the same time.
+
+[img]http://c360958.r58.cf2.rackcdn.com/screen.png[/img]
+
+[b]Why can't I see very many items?[/b]
+Presently, we don't have many resources on sale, but we aim to have far more in the future. If you're interested in selling resources, submit said resources through your [url=http://sparklemon.com/account/settings.php]account[/url] page. All submissions are reviewed by staff, so don't freak out if your resource doesn't show up right away.
+
+[b]Do you have any more information?[/b]
+Sure, take a look at our [url=http://sparklemon.com/about]about[/url] page, and you'll be able to find out more.
+
+[b]It's a Beta![/b]
+The site is currently in beta (i.e. it's not done yet). If you find any bugs, please go to our [url=http://sparklemon.com/contact]contact[/url] page and get in touch with us.
+
+[font=Trebuchet MS][size=18][b]Check us out![/b][/size]
+[url=http://www.sparklemon.com]SparkLemon.com[/url][/font]
+
+[size=9][i]* note: the other staff members thought this advertisement was okay.[/i][/size]

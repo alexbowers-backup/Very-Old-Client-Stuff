@@ -1,0 +1,37 @@
+#cookiecommons {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fa9d9d), to(#de7373));
+	background: -webkit-linear-gradient(top, #fa9d9d, #de7373);
+	background: -moz-linear-gradient(top, #fa9d9d, #de7373);
+	background: -ms-linear-gradient(top, #fa9d9d, #de7373);
+	background: -o-linear-gradient(top, #fa9d9d, #de7373);
+	background-color: #fa9d9d;
+}
+
+#cookiecommons_title {
+	color: #fff;
+	text-shadow: 0 1px 2px #CC0000;
+}
+
+#cookiecommons_body {
+	color: #CC0000;
+}
+
+#cookiecommons_line {
+	border-bottom: 1px solid #CC0000;
+}
+
+.cookiecommons_btn {
+background-color:#CC0000;
+}
+.cookiecommons_btn:hover {
+background-color:#990000;
+}
+.cookiecommons_btn:active {
+background-color:#ea0202;
+}
+.cookiecommons_span {
+	color: #CC0000;
+}
+.cookiecommons_span a {
+	color: #CC0000;
+}

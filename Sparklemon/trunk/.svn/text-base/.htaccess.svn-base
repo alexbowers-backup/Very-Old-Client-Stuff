@@ -1,0 +1,53 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^sparklemon.com$ [NC]
+RewriteRule ^(.*)$ http://sparklemon.com/$1 [L,R=301]
+RewriteRule ^item/([^/]+) item.php?id=$1 [NC]
+RewriteRule ^admin/user/([^/]+) admin/user.php?id=$1 [NC]
+RewriteRule ^user/([^/]+) user.php?id=$1 [NC]
+RewriteRule ^browse/([^/]+)/?([^/]+)? browse.php?sort=$1&id=$2 [NC]
+RewriteRule ^contact contact.php [NC]
+RewriteRule ^about about.php [NC]
+
+ErrorDocument 404 /error.php
+
+# COMMENT BACK IN ONCE OWN DOMAIN IS IN PLACE
+
+AddType image/x-icon .ico
+ExpiresActive on
+ExpiresDefault "access plus 2 days"
+ExpiresByType image/jpg "access plus 1 months"
+ExpiresByType image/gif "access plus 1 months"
+ExpiresByType image/jpeg "access plus 1 months"
+ExpiresByType image/png "access plus 1 months"
+ExpiresByType text/css "access plus 1 weeks"
+ExpiresByType text/javascript "access plus 1 months"
+ExpiresByType application/javascript "access plus 1 months"
+ExpiresByType application/x-shockwave-flash "access plus 1 months"
+ExpiresByType image/x-icon "access plus 1 months"
+
+# turn off E-Tags
+Header unset ETag
+FileETag None
+
+# compress
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# fonts
+<ifmodule mod_deflate.c>
+<ifmodule mod_mime.c>
+Addtype font/opentype .otf
+Addtype font/eot .eot
+Addtype font/truetype .ttf
+Addtype font/svg .svg
+</ifmodule>
+AddOutputFilterByType DEFLATE font/opentype font/truetype font/eot font/svg
+</ifmodule>

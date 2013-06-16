@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/sparkserver/!svn/ver/3/trunk/email
+END
+template_middle.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sparkserver/!svn/ver/3/trunk/email/template_middle.txt
+END
+template_top.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sparkserver/!svn/ver/3/trunk/email/template_top.txt
+END
+template_bottom.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sparkserver/!svn/ver/3/trunk/email/template_bottom.txt
+END

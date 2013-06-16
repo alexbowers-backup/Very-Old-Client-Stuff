@@ -1,0 +1,31 @@
+<html>
+	<head>
+    
+    </head>
+    <body>
+    	<input type="button" value="Request Permission to Notify" id="permission_button" />
+    </body>
+</html>
+<script>
+			document.querySelector('#permission_button').addEventListener('click',function(){
+				if(window.webkitNotifications.checkPermission() == 0) // allowed / set 
+				{
+					notify = notifyInstance({notifyType: 'html'});
+					notify.show();
+				} else {
+					window.webkitNotifications.requestPermission(); 
+				}
+			}, false);
+			if(window.webkitNotifications){
+				
+			} else {
+				alert('Sorry :(');
+			}
+			function notifyInstance(options){
+				if(options.notifyType =='plain'){
+					return window.webkitNotifications.createNotification('img.png','title','content');
+				} else if(options.notifyType =='html'){
+					return window.webkitNotifications.createHTMLNotification('http://google.com');
+				}
+			}
+		</script>

@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+Options -Indexes
+SetEnv TZ Europe/London
+php_value date.timezone "Europe/London"
+
+RewriteCond %{REQUEST_URI} ^/cc.js
+RewriteRule ^(.*)$ _buildccjs.php
+
+RewriteCond %{REQUEST_URI} ^/agree.js$
+RewriteRule ^(.*)$ _agree.php
+

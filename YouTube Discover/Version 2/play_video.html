@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+    <title>{ Video Title }</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen">
+        body {
+            -webkit-transition: background 5s ease-in;
+            -moz-transition: background 5s ease-in;
+            -o-transition: background 5s ease-in;
+            transition: background 5s ease-in;
+        }
+        footer, header {
+            -webkit-transition: background 4s ease-in;
+            -moz-transition: background 4s ease-in;
+            -o-transition: background 4s ease-in;
+            transition: background 4s ease-in;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <header class="group">
+    	<div id="inner"></div>
+        <a href="find_results.html" style="display: block; width: 180px;"><div id="logo">YouTube Discover</div></a>
+        <nav id="nav1"><input type="button" id="view-back" value="&larr; Back" onclick="window.location.href = 'find_results.html'"/>
+        Welcome, <strong>Mr. Bob</strong> - <a href="#">My Videos</a> - <a href="#">Messages <span class="notification">1</span></a></nav>
+    </header>
+    <div style="width: 853px; margin: auto">
+	    <iframe width="853" height="480" src="http://www.youtube.com/embed/BgAlQuqzl8o?autoplay=1&start=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+<footer>
+    <span class="padded">&copy; Copyright 2011 XYZ</span>
+    <span class="padded">Design by <a href="http://4cu.be">Gupocca</a></span>
+    <a href="#" class="padded">Terms of Service</a>
+    <a href="#" class="padded">Privacy Policy</a>
+</footer>
+<script>/*
+$(function(){
+	$('body').css('background','#171717');
+	$('header #inner').css('background','rgba(255,255,255,0.7)');
+    $('footer').css('color','rgba(255,255,255,0.7)');
+});*/
+</script>
+</body>
+</html>

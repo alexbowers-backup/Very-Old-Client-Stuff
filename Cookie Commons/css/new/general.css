@@ -1,0 +1,102 @@
+#cookiecommons {
+    font-family: Verdana,sans-serif; 
+    z-index: 900;
+    position: relative;
+	text-align:center;
+	padding: 25px 0 0 0;
+	margin: 0;
+}
+
+#cookiecommons_content {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#cookiecommons_title {
+	display: inline;
+	text-align: left;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#cookiecommons_btn_container {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#cookiecommons_body {
+	color: white; 
+	margin: 0;
+	padding: 20px 10px 20px 0; 
+	font-size: 13px;
+	line-height: 18px;
+}	
+
+#cookiecommons_line {
+	width: 100%;
+	height: 1px;
+	background: white;
+	border-bottom: 1px solid black;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=5);
+}
+
+/* Start Button Styles --------------------------------------------- */
+input[type="button"], button {
+border:0 none;
+font:inherit;
+}
+*:focus{outline:0 none;}
+input[type="submit"] {border:1px solid rgba(0, 0, 0, 0.25);}
+input[type="button"], button {-moz-box-sizing: content-box;}/*fixes mozilla padding - mozilla only, doesn't need webkit or other values */
+input[type="button"]::-moz-focus-inner, button::-moz-focus-inner { padding:0;border:0 none; }/*fixes mozilla button padding - mozilla only, doesn't need webkit or other values */
+
+/* General Button Styles, Cascades Down To Every Button ------------- */
+.cookiecommons_btn {
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.50);
+-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.50);
+box-shadow:0 1px 3px rgba(0, 0, 0, 0.50);
+background:#222222;
+border:1px solid rgba(0, 0, 0, 0.25);
+color:#FFFFFF !important;
+cursor:pointer;
+display:inline-block;
+font-size:13px;
+font-weight:bold;
+line-height:1;
+overflow:visible;
+padding:5px 15px 6px;
+position:relative;
+text-decoration:none;
+text-shadow:0 -1px 1px rgba(0, 0, 0, 0.25);
+width:auto;
+text-align:center;
+}
+.cookiecommons_btn:hover {
+background:#111111;
+color:#FFFFFF;
+}
+.cookiecommons_btn:active {
+background:#242424;
+}
+
+.small.cookiecommons_btn {
+font-size:11px;
+padding:5px 15px 6px;
+}
+input[type="submit"].small.cookiecommons_btn, .small.cookiecommons_btn.input {
+padding:3px 15px 4px;
+}
+input[type="button"].small.cookiecommons_btn, button.small.cookiecommons_btn {
+padding:4px 15px;
+}
+.pull-right{float:right;font-size: 13px;}

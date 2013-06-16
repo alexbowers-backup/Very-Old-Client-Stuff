@@ -1,0 +1,8 @@
+[15-Dec-2010 15:44:31] PHP Parse error:  syntax error, unexpected ';' in /home/conley/public_html/sparklemon.com/admin/user.php on line 102
+[15-Dec-2010 17:01:12] PHP Fatal error:  Call to undefined function  get_position() in /home/conley/public_html/sparklemon.com/admin/user.php on line 127
+[15-Dec-2010 17:01:13] PHP Fatal error:  Call to undefined function  get_position() in /home/conley/public_html/sparklemon.com/admin/user.php on line 127
+[15-Dec-2010 17:01:46] PHP Fatal error:  Call to undefined function  get_position() in /home/conley/public_html/sparklemon.com/admin/user.php on line 127
+[15-Dec-2010 17:40:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/conley/public_html/sparklemon.com/admin/user.php:90) in /home/conley/public_html/sparklemon.com/admin/user.php on line 105
+[15-Dec-2010 17:41:22] PHP Parse error:  syntax error, unexpected $end in /home/conley/public_html/sparklemon.com/admin/user.php on line 171
+[15-Dec-2010 17:41:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/conley/public_html/sparklemon.com/admin/user.php:96) in /home/conley/public_html/sparklemon.com/admin/user.php on line 105
+[15-Dec-2010 17:47:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/conley/public_html/sparklemon.com/admin/user.php:94) in /home/conley/public_html/sparklemon.com/admin/user.php on line 106

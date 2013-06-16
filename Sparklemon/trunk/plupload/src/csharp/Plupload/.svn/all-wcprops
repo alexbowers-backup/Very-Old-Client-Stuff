@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload
+END
+Plupload.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/Plupload.csproj
+END
+App.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/App.xaml
+END
+Page.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/Page.xaml.cs
+END
+FileReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FileReference.cs
+END
+App.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/App.xaml.cs
+END
+Plupload.suo
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/Plupload.suo
+END
+Plupload.sln
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/Plupload.sln
+END
+Page.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/Page.xaml
+END

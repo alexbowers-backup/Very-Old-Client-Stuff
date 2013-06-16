@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>*SUBJECT*</title>
+		<style type="text/css">
+			body{width:100% !important;}
+			body{-webkit-text-size-adjust:none;}
+			body{margin:0; padding:0;}
+			img{border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize;}
+			
+			body{background-color:#EEE;}
+			#header{width:100%; height:100px; background-image:url(images/header_full.png);}
+			#header_center{width:500px; height:100px; background-image:url(images/header_center.png); margin-left:auto; margin-right:auto;}
+			#content{border-width:1px; border-style:solid; border-top-style:none; border-color:#CCC;}
+			h1 {font-family:Verdana, Geneva, sans-serif; font-size:28px;}
+			p {font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#272727;}
+			a {font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#AF2116;}
+			b {color:#333;}
+			#footer {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#C0C0C0;}
+			center {text-align:center;}
+		</style>
+	</head>
+	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+		<div id="header"><div id="header_center"></div></div>
+		<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center" valign="top">
+					<table width="600" border="0" cellspacing="0" cellpadding="10" bgcolor="#F7F7F7" id="content">
+						<tr>
+							<td>
+								<p><b>Hello, Josh</b></p>
+								<p>Thank you for registering at Spark Lemon. To confirm your registration, please click on the following link.</p>
+								<p><a href="http://sparklemon.com/confirm.php?token=356df0aad5d4455d9dc6a04b596f327a&email=jcoolist%40gmail.com&id=0">http://sparklemon.com/confirm.php?token=356df0aad5d4455d9dc6a04b596f327a&email=jcoolist%40gmail.com&id=0</a></p>
+								<p>Thanks,<br /><i>- Spark Lemon Staff</i></p>
+							</td>
+						</tr>
+					</table>
+					<table width="600" border="0" cellspacing="0" cellpadding="10">
+						<tr>
+							<td>
+								<center><span id="footer">© 2011 Spark Lemon. All right reserved.</span></center>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+    </body>
+</html>

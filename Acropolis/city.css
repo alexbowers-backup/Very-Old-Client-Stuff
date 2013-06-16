@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headquaters {
+	background-image: url(images/city/buildings/normal/town_hall.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 105px;
+	height: 85px;
+	position: absolute;
+	left: 115px;
+	top: 175px;
+	z-index: 2;
+}
+.barracks {
+	background-image: url(images/city/buildings/normal/barracks.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 98px;
+	height: 93px;
+	position: absolute;
+	left: 415px;
+	top: 215px;
+	z-index: 2;
+}
+.ironmine {
+	background-image: url(images/city/buildings/normal/iron_mine.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 287px;
+	height: 175px;
+	position: absolute;
+	left: 465px;
+	z-index: 2;
+}
+.timbermill {
+	background-image: url(images/city/buildings/normal/timber_mill.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 66px;
+	height: 57px;
+	position: absolute;
+	left: 542px;
+	top: 330px;
+	z-index: 2;
+}
+.farm {
+	background-image: url(images/city/buildings/normal/farm.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 289px;
+	height: 111px;
+	position: absolute;
+	left: 325px;
+	top: 371px;
+	z-index: 2;
+}
+.claypit {
+	background-image: url(images/city/buildings/normal/clay_pit.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 97px;
+	position: absolute;
+	left: 552px;
+	top: 150px;
+	z-index: 2;
+}
+.academy {
+	background-image: url(images/city/buildings/normal/academy.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 98px;
+	height: 89px;
+	position: absolute;
+	left: 240px;
+	top: 95px;
+	z-index: 2;
+}
+.stable {
+	background-image: url(images/city/buildings/normal/stable.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 97px;
+	position: absolute;
+	left: 165px;
+	top: 252px;
+	z-index: 2;
+}
+.village {
+	background-image: url(images/city/buildings/normal/village.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 84px;
+	height: 82px;
+	position: absolute;
+	left: 185px;
+	top: 145px;
+	z-index: 2;
+}
+
+.wall2 {
+	background-image: url(images/city/buildings/normal/wall.png);
+	background-repeat: no-repeat;
+	display:inline-table;
+	width: 460px;
+	height: 394px;
+	position: absolute;
+	left: 95px;
+	z-index: 0;
+
+}
+
+.wall {
+	background-image: url(images/city/buildings/normal/wall.png);
+	background-repeat: no-repeat;
+	display:inline-table;
+	width: 460px;
+	height: 394px;
+	position: absolute;
+	left: 95px;
+	z-index: 0;
+
+}
+
+
+.workshop {
+	background-image: url(images/city/buildings/normal/workshop.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 100px;
+	position: absolute;
+	left: 310px;
+	top: 100px;
+	z-index: 2;
+}
+.warehouse {
+	background-image: url(images/city/buildings/normal/warehouse.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 105px;
+	height: 92px;
+	position: absolute;
+	left: 370px;
+	top: 130px;
+	z-index: 2;
+}
+.market {
+	background-image: url(images/city/buildings/normal/village_shop.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 128px;
+	height: 116px;
+	position: absolute;
+	left: 286px;
+	top: 262px;
+	z-index: 2;
+}
+.fountain2 {
+	background-image: url(images/city/buildings/normal/fountain.png);
+	background-repeat: no-repeat;
+	display:inline-table;
+	width: 52px;
+	height: 71px;
+	position: absolute;
+	left: 280px;
+	top: 190px;
+}
+.fountain {
+	background-image: url(images/city/buildings/normal/fountain.png);
+	background-repeat: no-repeat;
+	display:inline-table;
+	width: 52px;
+	height: 71px;
+	position: absolute;
+	left: 280px;
+	top: 190px;
+}
+
+.warroom {
+	background-image: url(images/city/buildings/normal/war_room.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 119px;
+	height: 90px;
+	position: absolute;
+	left: 220px;
+	top: 300px;
+	z-index: 2;
+}
+
+.headquaters:hover {
+	background-image: url(images/city/buildings/hover/town_hall.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 105px;
+	height: 85px;
+	position: absolute;
+	left: 115px;
+	top: 175px;
+	z-index: 2;
+}
+.barracks:hover {
+	background-image: url(images/city/buildings/hover/barracks.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 98px;
+	height: 93px;
+	position: absolute;
+	left: 415px;
+	top: 215px;
+	z-index: 2;
+}
+.ironmine:hover {
+	background-image: url(images/city/buildings/hover/iron_mine.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 287px;
+	height: 175px;
+	position: absolute;
+	left: 465px;
+	z-index: 2;
+}
+.timbermill:hover {
+	background-image: url(images/city/buildings/hover/timber_mill.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 66px;
+	height: 57px;
+	position: absolute;
+	left: 542px;
+	top: 330px;
+	z-index: 2;
+}
+.farm:hover {
+	background-image: url(images/city/buildings/hover/farm.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 289px;
+	height: 111px;
+	position: absolute;
+	left: 325px;
+	top: 371px;
+	z-index: 2;
+}
+.claypit:hover {
+	background-image: url(images/city/buildings/hover/clay_pit.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 97px;
+	position: absolute;
+	left: 552px;
+	top: 150px;
+	z-index: 2;
+}
+.academy:hover {
+	background-image: url(images/city/buildings/hover/academy.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 98px;
+	height: 89px;
+	position: absolute;
+	left: 240px;
+	top: 95px;
+	z-index: 2;
+}
+.stable:hover {
+	background-image: url(images/city/buildings/hover/stable.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 97px;
+	position: absolute;
+	left: 165px;
+	top: 252px;
+	z-index: 2;
+}
+.village:hover {
+	background-image: url(images/city/buildings/hover/village.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 84px;
+	height: 82px;
+	position: absolute;
+	left: 185px;
+	top: 145px;
+	z-index: 2;
+}
+.wall_hover {
+	background-image: url(images/city/buildings/hover/wall.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 460px;
+	height: 394px;
+	position: absolute;
+	left: 95px;
+	top: 52px;
+	z-index: 0;
+}
+.workshop:hover {
+	background-image: url(images/city/buildings/hover/workshop.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 79px;
+	height: 100px;
+	position: absolute;
+	left: 310px;
+	top: 100px;
+	z-index: 2;
+}
+.warehouse:hover {
+	background-image: url(images/city/buildings/hover/warehouse.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 105px;
+	height: 92px;
+	position: absolute;
+	left: 370px;
+	top: 130px;
+	z-index: 2;
+}
+.market:hover {
+	background-image: url(images/city/buildings/hover/village_shop.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 128px;
+	height: 116px;
+	position: absolute;
+	left: 286px;
+	top: 262px;
+	z-index: 2;
+}
+.warroom:hover {
+	background-image: url(images/city/buildings/hover/war_room.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 119px;
+	height: 90px;
+	position: absolute;
+	left: 220px;
+	top: 300px;
+	z-index: 2;
+}
+
+
+
+.wall:hover {
+	background-image: url(images/city/buildings/hover/wall.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 460px;
+	height: 394px;
+	position: absolute;
+	left: 95px;
+	top: 52px;
+	z-index: 0;
+}

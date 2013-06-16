@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ingress Icon Pure CSS</title>
+		<style type="text/css">
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+				{ 
+					margin: 0; 
+					padding: 0; 
+					border: 0; 
+					outline: 0; 
+					font-weight: inherit; 
+					font-style: inherit; 
+					font-size: 100%; 
+					font-family: inherit; 
+					vertical-align: baseline; 
+				}
+			blockquote:before, blockquote:after, q:before, q:after 	{ 
+				content: ""; 
+			}
+			blockquote, q  		{ 
+				quotes: "" "";
+			 }
+			body 				{ 
+				line-height: 1; color: black; background: white; 
+			}
+			caption, th, td 	{ text-align: left; font-weight: normal; }
+			:focus 				{ outline: 0; }
+			table 				{ border-collapse: separate; border-spacing: 0; }
+			ol, ul  			{ list-style: none; }
+
+			a
+		{	font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			color: #666;
+			text-decoration: none;
+			margin: 40px auto 0;
+			display: block;
+			width: 120px;
+			text-align: center; }
+
+
+			/* LOGO */
+			.ingress {
+				width: 442px;
+				height: 442px;
+				display: block;
+				position: absolute;
+				top: 150px;
+				left: 20px;
+				position: relative;
+				-webkit-transform: rotate(60deg);
+			}
+
+			.ingress .background #hexagon {
+				width: 442px;
+				height: 256px;
+				background: #01aeef;
+				position: relative;
+				z-index: 1;
+			}
+			.ingress .background #hexagon:before {
+				content: "";
+				position: absolute;
+				top: -128px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 221px solid transparent;
+				border-right: 221px solid transparent;
+				border-bottom: 128px solid #01aeef;
+			}
+			.ingress .background #hexagon:after {
+				content: "";
+				position: absolute;
+				bottom: -128px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 221px solid transparent;
+				border-right: 221px solid transparent;
+				border-top: 128px solid #01aeef;
+			}
+			.ingress .overlay-1 #chevron {
+				
+			}
+			.ingress .overlay-1 #chevron {
+				background-color: #75d3f6;
+				position: relative;
+				top: -244px;
+				left: 22px;
+				width: 0px;
+				height: 164px;
+				border-left: 199px solid transparent;
+				border-right: 199px solid transparent;
+				z-index: 2;
+			}
+			.ingress .overlay-1 #chevron:before {
+				content: "";
+				position: absolute;
+				left: -199px;
+				top: -116px;
+				border-left: 199px solid transparent;
+				border-right: 199px solid transparent;
+				border-bottom: 116px solid #75d3f6;
+				z-index: 3;
+			}
+			.ingress .overlay-1 #chevron:after {
+				content: "";
+				position: absolute;
+				left: -199px;
+				top: 84px;
+				border-left: 199px solid transparent;
+				border-right: 199px solid transparent;
+				border-top: 80px solid #01aeef;
+				-webkit-transform: rotate(180deg);
+			}
+
+			.ingress .overlay-2 #outline {
+
+			}
+			.ingress .overlay-3 #center-piece {
+				content: "";
+				position: absolute;
+				top: -25px;
+				left: 95px; 
+				border-left: 130px solid transparent;
+				border-right: 130px solid transparent;
+				border-bottom: 230px solid white;
+				z-index: 4;
+			}
+			.ingress .overlay-3 #center-piece .a-1 {
+				content: "";
+				position: absolute;
+				top: 165px;
+				left: -66px;
+				border-left: 65px solid transparent;
+				border-right: 65px solid transparent;
+				border-bottom: 40px solid #01aeef;
+				z-index: 5;
+			}
+			.ingress .overlay-3 #center-piece .a-2 {
+				content: "";
+				position: absolute;
+				top: 118px;
+				left: -94px;
+				border-left: 65px solid transparent;
+				border-right: 65px solid transparent;
+				border-bottom: 40px solid #01aeef;
+				z-index:5;
+				-webkit-transform: rotate(120deg);
+			}
+			.ingress .overlay-3 #center-piece .a-3 {
+				content: "";
+				position: absolute;
+				top: 120px;
+				left: -36px;
+				border-left: 65px solid transparent;
+				border-right: 65px solid transparent;
+				border-bottom: 40px solid #01aeef;
+				z-index: 5;
+				-webkit-transform: rotate(240deg);
+			}
+			.ingress .overlay-0 #hexagon {
+				width: 354px;
+				height: 207px;
+				background: white;
+				position: absolute;
+				left: 44px;
+				top: 20px;
+				z-index: 4;
+			}
+			.ingress .overlay-0 #hexagon:before {
+				content: "";
+				position: absolute;
+				top: -98px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 177px solid transparent;
+				border-right: 177px solid transparent;
+				border-bottom: 98px solid white;
+			}
+			.ingress .overlay-0 #hexagon:after {
+				content: "";
+				position: absolute;
+				bottom: -98px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 177px solid transparent;
+				border-right: 177px solid transparent;
+				border-top: 98px solid white;
+			}
+			.ingress .overlay-0 #hexagon-2 {
+				width: 310px;
+				height: 168px;
+				background: #01aeef;
+				position: absolute;
+				left: 66px;
+				top: 36px;
+				z-index: 4;
+			}
+			.ingress .overlay-0 #hexagon-2:before {
+				content: "";
+				position: absolute;
+				top: -88px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 155px solid transparent;
+				border-right: 155px solid transparent;
+				border-bottom: 88px solid #01aeef;
+			}
+			.ingress .overlay-0 #hexagon-2:after {
+				content: "";
+				position: absolute;
+				bottom: -88px;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-left: 155px solid transparent;
+				border-right: 155px solid transparent;
+				border-top: 88px solid #01aeef;
+			}
+			.ingress .overlay-0 #chevron {
+				background-color: #75d3f6;
+				position: absolute;
+				top: 36px;
+				left: 66px;
+				width: 0px;
+				height: 122px;
+				border-left: 155px solid transparent;
+				border-right: 155px solid transparent;
+				z-index: 4;
+			}
+			.ingress .overlay-0 #chevron:before {
+				content: "";
+				position: absolute;
+				left: -155px;
+				top: -86px;
+				border-left: 155px solid transparent;
+				border-right: 155px solid transparent;
+				border-bottom: 86px solid #75d3f6;
+				z-index: 6;
+			}
+			.ingress .overlay-0 #chevron:after {
+				content: "";
+				position: absolute;
+				left: -155px;
+				top: 56px;
+				border-left: 155px solid transparent;
+				border-right: 155px solid transparent;
+				border-top: 66px solid #01aeef;
+				-webkit-transform: rotate(180deg);
+			}
+			.ingress .overlay-2 #outline .b-1 {
+				content: "";
+				position: absolute;
+				width: 23px;
+				height: 85px;
+				left: 80px;
+				top: 7px;
+				background-color: white;
+				z-index: 7;
+				-webkit-transform: rotate(-60deg);
+			}
+			.ingress .overlay-2 #outline .b-2 {
+				content: "";
+				position: absolute;
+				width: 23px;
+				height: 85px;
+				left: 210px;
+				top: 233px;
+				background-color: white;
+				z-index: 7;
+				-webkit-transform: rotate(180deg);
+			}
+			.ingress .overlay-2 #outline .b-3 {
+				content: "";
+				position: absolute;
+				width: 23px;
+				height: 85px;
+				left: 340px;
+				top: 2px;
+				background-color: white;
+				z-index: 7;
+				-webkit-transform: rotate(60deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ingress">
+			<div class="background">
+				<div id="hexagon"></div>
+			</div>
+			<div class="overlay-0">
+				<div id="hexagon"></div>
+				<div id="hexagon-2"></div>
+				<div id="chevron"></div>
+			</div>
+			<div class="overlay-1">
+				<div id="chevron"></div>
+			</div>
+			<div class="overlay-2">
+				<div id="outline">
+					<div class="b-1"></div>
+					<div class="b-2"></div>
+					<div class="b-3"></div>
+				</div>
+			</div>
+			<div class="overlay-3">
+				<div id="center-piece">
+					<div class="a-1"></div>
+					<div class="a-2"></div>
+					<div class="a-3"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

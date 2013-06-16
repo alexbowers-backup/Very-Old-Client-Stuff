@@ -1,0 +1,149 @@
+/* COLORS: http://kuler.adobe.com/#themeID/1066348 */
+
+body {
+	/* In this shorthand, the Xpt/Ypt specifies the font size (X) and line height (Y). Then there are a bunch of fonts.  */
+	font: 11pt/17.6pt Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans serif;
+	background: #25221E;
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+	font-family: 'OtariBold-Limited';
+	src: url('type/Otari-Bold-Limited-webfont.eot');
+	src: url('type/Otari-Bold-Limited-webfont.otf') format('opentype'), local('☺'), url('type/Otari-Bold-Limited-webfont.woff') format('woff'), url('type/Otari-Bold-Limited-webfont.ttf') format('truetype'), url('type/Otari-Bold-Limited-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#header {
+	width: 960px;
+	padding: 25px 0 15px;
+	margin: 20px auto 10px;
+	color: #F1AF56;
+	text-align: center;
+	text-shadow:0 1px 1px #B33206;
+	background-color: #CE610B;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.14, rgb(205,95,11)),
+		color-stop(0.56, rgb(206,103,12)),
+		color-stop(0.85, rgb(213,122,11)));
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(205,95,11) 14%,
+		rgb(206,103,12) 56%,
+		rgb(213,122,11) 85%
+	);
+	box-shadow: inset 0 0 5px #FAA930;
+	-moz-box-shadow: 0 0 5px #FAA930 inset;
+	-webkit-box-shadow: inset 0 0 5px #FAA930;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+#header > #nav > ul {
+	margin: 0;
+	padding: 0;
+}
+#header > #nav > ul > li {
+	font: 12pt/19.2pt Georgia, "Times New Roman", Times, serif;
+	display: inline;
+	margin: 20px;
+	list-style: none;
+}
+#header > #title {
+	margin: 20px 0 10px;
+	font: 40pt/64pt 'OtariBold-Limited', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans serif;
+	text-decoration: none;
+	color: #FFE1B9;
+}
+#container {
+	color: #4C4844;
+	background: #E4DCD5;
+	width: 930px;
+	padding: 5px 15px;
+	margin: auto;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+button, a.button {
+	text-decoration: none;
+	width: 98px;
+	height: 34px;
+	text-align: center;
+	color: white;
+	font: 10pt Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 0 #965306;
+	
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	
+	background-color: #ec830a;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(225,126,12)),
+    color-stop(0.5, rgb(242,134,10)),
+    color-stop(1, rgb(225,126,12)));
+	background-image: -moz-linear-gradient(
+    left center,
+    rgb(225,126,12) 0%,
+    rgb(242,134,10) 50%,
+    rgb(225,126,12) 100%);
+	box-shadow: inset 0 0 0 1px #eec79b;
+	-moz-box-shadow: 0 0 0 1px #eec79b inset;
+	-webkit-box-shadow: inset 0 0 0 1px #eec79b;
+	border: solid 1px #a73b06;
+}
+a.button {
+	padding: 8px 18px;
+}
+button:hover, a.button:hover {
+	text-shadow: 1px 1px 0 #2f2f2f;
+	box-shadow: inset 0 0 0 1px #b4b4b4;
+	-moz-box-shadow: 0 0 0 1px #b4b4b4 inset;
+	-webkit-box-shadow: inset 0 0 0 1px #b4b4b4;
+	border: solid 1px #606060;
+	color: #f0f0f0;
+	
+	background-color: #4e4e4e;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(74,74,74)),
+    color-stop(0.5, rgb(87,87,87)),
+    color-stop(1, rgb(74,74,74)));
+	background-image: -moz-linear-gradient(
+	left center,
+	rgb(74,74,74) 0%,
+	rgb(87,87,87) 50%,
+	rgb(74,74,74) 100%);
+}
+h1 {
+	font: 26px/41.6px 'OtariBold-Limited',Arial,Sans-serif;
+	text-shadow: 0 1px 0 #EBE5E0;
+	color: #724336;
+	margin: 10px 0 0;
+}
+p {
+	margin-top: 6px;
+}
+img {
+	border:none;
+}
+
+/* *JOSH's QUICK MOD's*  --- CAN BE CHANGED/REMOVED!!! */
+
+#box_featured {
+	background:url(../../images/featured_bg.png) no-repeat;
+	width:910px;
+	height:325px;
+	margin:15px auto;
+	padding:15px;
+}

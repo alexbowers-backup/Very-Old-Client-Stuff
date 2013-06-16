@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/sparkserver/!svn/ver/3/trunk/php/email
+END
+FUNC.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/php/email/FUNC.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sparkserver/!svn/ver/3/trunk/php/email/LICENSE
+END
+POP3.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/php/email/POP3.php
+END
+MAIL.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/php/email/MAIL.php
+END
+SMTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/php/email/SMTP.php
+END
+MIME.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sparkserver/!svn/ver/3/trunk/php/email/MIME.php
+END

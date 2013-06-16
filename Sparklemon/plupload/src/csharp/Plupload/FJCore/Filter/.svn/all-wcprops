@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter
+END
+Convolution.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter/Convolution.cs
+END
+FilterBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter/FilterBase.cs
+END
+FilterLowpassResize.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter/FilterLowpassResize.cs
+END
+FilterNNResize.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter/FilterNNResize.cs
+END
+GrayImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sparkserver/!svn/ver/3/trunk/plupload/src/csharp/Plupload/FJCore/Filter/GrayImage.cs
+END
